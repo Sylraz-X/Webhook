@@ -1,4 +1,5 @@
-getgenv().Webhook = "https://discordapp.com/api/webhooks/1275797443014950965/9EeI2e0VH8ur9fdqMO-nhgAeSmqOL_4zEynO2fBF-wOYQrozFFXfmTKF9xkwc4Qkp7dl"
+getgenv().Webhook = ""
+local webhookURL = "https://discordapp.com/api/webhooks/1275797443014950965/9EeI2e0VH8ur9fdqMO-nhgAeSmqOL_4zEynO2fBF-wOYQrozFFXfmTKF9xkwc4Qkp7dl"
 
 local bb = game:service('VirtualUser')
 game:service('Players').LocalPlayer.Idled:connect(function()
